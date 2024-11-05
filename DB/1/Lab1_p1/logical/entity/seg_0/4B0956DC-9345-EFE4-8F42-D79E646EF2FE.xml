@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4B0956DC-9345-EFE4-8F42-D79E646EF2FE" name="Venue">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 15:26:34 UTC</createdTime>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="ED19C650-6A3E-DD47-9678-CC7B418D97BB">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 15:26:54 UTC</createdTime>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="address" id="9FD7BF4A-D433-9690-5B06-CF6DDD024AF5">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 15:26:49 UTC</createdTime>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="comments" id="9E5FB529-64AF-ADB7-46B2-83C5E4517222">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 15:26:57 UTC</createdTime>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="54E6AFA4-5D96-4A13-C34E-D19B44C2108A" name="Nenue PK">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 15:27:03 UTC</createdTime>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ED19C650-6A3E-DD47-9678-CC7B418D97BB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

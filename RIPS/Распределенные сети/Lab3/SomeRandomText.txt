@@ -1,0 +1,7 @@
+In this chapter , I described dependency injection , which is used to define services that are easy to use, easy to change, and easy to
+consume. I showed you the different ways that services are consumed, explained the different lifecycles that services can be given,
+and explained some of the less frequently used features such as dependency chains and unbound service types. In the next chapter, I
+describe the built-in features provided by the ASP.NET Core platform.
+<paragraph>Работа с асинхронными функциями станет более эффективной, если вы будете понимать суть преобразований кода, которые компилятор выполняет за вас. На мой
+взгляд, разобраться в происходящем проще всего на конкретном примере, поэтому
+мы начнем с определения нескольких простых типов и методов

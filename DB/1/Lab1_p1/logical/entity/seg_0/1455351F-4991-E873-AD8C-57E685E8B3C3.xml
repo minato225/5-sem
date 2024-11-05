@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1455351F-4991-E873-AD8C-57E685E8B3C3" name="Departmentv1">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-20 12:03:39 UTC</createdTime>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="D3D8CEE0-3D64-F46D-1F4C-1F12CBA444A4">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-20 12:03:49 UTC</createdTime>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="CE334BE4-D6FC-C0D1-8D07-7E5EE1061602">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-20 12:04:48 UTC</createdTime>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EB111A49-880E-C22C-7724-3622D665C77B" name="Department PK">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-20 12:03:53 UTC</createdTime>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D3D8CEE0-3D64-F46D-1F4C-1F12CBA444A4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

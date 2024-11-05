@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="17487877-07E0-AFD7-0310-D32B40892C84" name="Hirer">
+<createdBy>Рома</createdBy>
+<createdTime>2021-10-18 13:39:51 UTC</createdTime>
+<generatorID>A4FC718F-E759-7A35-2483-7A6684074754</generatorID>
+<ownerDesignName>Доскоч_18_10</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Number" id="51E0ACFD-11C0-2835-3569-79A6E58F9572">
+<createdBy>Рома</createdBy>
+<createdTime>2021-10-18 13:39:51 UTC</createdTime>
+<generatorID>74386719-E6EE-E3FE-5725-1826BB6A1178</generatorID>
+<ownerDesignName>Доскоч_18_10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Boss_Name" id="66B87A50-9852-0926-ABAA-92E742AEECD3">
+<createdBy>Рома</createdBy>
+<createdTime>2021-10-18 13:39:51 UTC</createdTime>
+<generatorID>E2F0E59C-4352-6875-EDDB-0C218130BED0</generatorID>
+<ownerDesignName>Доскоч_18_10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Org_Name" id="04B8332F-C4C9-4817-7DA4-948CA3DA1AC3">
+<createdBy>Рома</createdBy>
+<createdTime>2021-10-18 13:39:51 UTC</createdTime>
+<generatorID>336466BA-6B77-316D-35FE-4D283A1CE842</generatorID>
+<ownerDesignName>Доскоч_18_10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="010D5C0A-EEBA-39DF-F047-E7B11E06ABF2" name="Hirer_PK">
+<createdBy>Рома</createdBy>
+<createdTime>2021-10-18 13:39:51 UTC</createdTime>
+<generatorID>F90468DB-DF3F-07F4-2233-F4A39C8AF605</generatorID>
+<ownerDesignName>Доскоч_18_10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51E0ACFD-11C0-2835-3569-79A6E58F9572"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

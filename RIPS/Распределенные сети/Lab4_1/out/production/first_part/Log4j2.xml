@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Appenders>
+        <File name="modelAppender" fileName="TrainStation.log" append="false">
+            <PatternLayout pattern="%level - %m%n"/>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Logger name="models" level="info" additivity="false">
+            <AppenderRef ref="modelAppender"/>
+        </Logger>
+    </Loggers>
+</Configuration>

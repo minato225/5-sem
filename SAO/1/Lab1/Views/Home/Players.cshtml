@@ -1,0 +1,50 @@
+﻿@model IEnumerable<Roster>
+
+<style>
+    table {
+        border-collapse: collapse;
+    }
+
+    table, th, td {
+        border: 1px solid black;
+    }
+</style>
+
+<a asp-action="InsertRoster" asp-controller="Home">Add</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.playerid)</th>
+            <th>@Html.DisplayNameFor(model => model.jersey)</th>
+            <th>@Html.DisplayNameFor(model => model.fname)</th>
+            <th>@Html.DisplayNameFor(model => model.sname)</th>
+            <th>@Html.DisplayNameFor(model => model.position)</th>
+            <th>@Html.DisplayNameFor(model => model.birthday)</th>
+            <th>@Html.DisplayNameFor(model => model.weight)</th>
+            <th>@Html.DisplayNameFor(model => model.height)</th>
+            <th>@Html.DisplayNameFor(model => model.birthcity)</th>
+            <th>@Html.DisplayNameFor(model => model.birthstate)</th>
+            <th>@Html.DisplayNameFor(model => model.ClubId)</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.playerid)</td>
+                <td>@Html.DisplayFor(modelItem => item.jersey)</td>
+                <td>@Html.DisplayFor(modelItem => item.fname)</td>
+                <td>@Html.DisplayFor(modelItem => item.sname)</td>
+                <td>@Html.DisplayFor(modelItem => item.position)</td>
+                <td>@Html.DisplayFor(modelItem => item.birthday)</td>
+                <td>@Html.DisplayFor(modelItem => item.weight)</td>
+                <td>@Html.DisplayFor(modelItem => item.height)</td>
+                <td>@Html.DisplayFor(modelItem => item.birthcity)</td>
+                <td>@Html.DisplayFor(modelItem => item.birthstate)</td>
+                <td>@Html.DisplayFor(modelItem => item.ClubId)</td>
+            </tr>
+        }
+    </tbody>
+</table>

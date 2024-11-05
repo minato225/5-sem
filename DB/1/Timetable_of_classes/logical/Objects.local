@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="3D093806-FFF3-B24F-A936-0F93A7FE658C" name="ClassRoom" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="1EE86D6C-A58D-3492-FAE8-78CDA25FD6E5" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="6457DC04-034A-DAFE-ADE2-3A4F1C5C9E29" name="lecturer" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="1EE86D6C-A58D-3492-FAE8-78CDA25FD6E5" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="6D26A269-92F1-3222-4B13-0611297A20DA" name="subject" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="1EE86D6C-A58D-3492-FAE8-78CDA25FD6E5" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="BB650F1F-7AAF-BAB9-293D-3A7001FB0E71" name="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="5602A3D5-FE03-6540-9710-3771EAC18CB0" name="subject lecturer FK" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="1EE86D6C-A58D-3492-FAE8-78CDA25FD6E5" propertySourceId="6457DC04-034A-DAFE-ADE2-3A4F1C5C9E29" propertyTargetId="6D26A269-92F1-3222-4B13-0611297A20DA"/>
+   <object objectType="Relation" objectID="75B00C05-5281-5722-DF06-AA04447D41A5" name="sub_class" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="1EE86D6C-A58D-3492-FAE8-78CDA25FD6E5" propertySourceId="6D26A269-92F1-3222-4B13-0611297A20DA" propertyTargetId="3D093806-FFF3-B24F-A936-0F93A7FE658C"/>
+   <object objectType="Relation" objectID="81290111-6200-C5EA-C6FC-D3422AC3358C" name="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

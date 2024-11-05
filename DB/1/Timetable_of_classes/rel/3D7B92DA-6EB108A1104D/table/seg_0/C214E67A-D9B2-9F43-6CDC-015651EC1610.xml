@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C214E67A-D9B2-9F43-6CDC-015651EC1610" name="class_type">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-27 13:40:53 UTC</createdTime>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="5F9560B7-0F04-F3A0-CC0D-D4C490C9EC6C">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-27 13:47:54 UTC</createdTime>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="class_type" id="768268BA-4313-A874-6F2E-12984A9F764E">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-27 13:47:54 UTC</createdTime>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2BECF982-512C-F291-5DE2-A4FF372E7298" name="class_type_PK">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-27 13:48:09 UTC</createdTime>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F9560B7-0F04-F3A0-CC0D-D4C490C9EC6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

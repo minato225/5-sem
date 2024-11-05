@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BB650F1F-7AAF-BAB9-293D-3A7001FB0E71" name="class type">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-27 14:04:52 UTC</createdTime>
+<generatorID>C214E67A-D9B2-9F43-6CDC-015651EC1610</generatorID>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<engineerTo>
+<item key="3D7B92DA-1EF1-2980-5665-6EB108A1104D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="3FA839D2-5019-DBD6-4AAA-8E3116994B5B">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-27 14:04:52 UTC</createdTime>
+<generatorID>5F9560B7-0F04-F3A0-CC0D-D4C490C9EC6C</generatorID>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<engineerTo>
+<item key="3D7B92DA-1EF1-2980-5665-6EB108A1104D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="class type" id="1A631B9C-B330-E7D4-DC2C-6A1165E68F39">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-27 14:04:52 UTC</createdTime>
+<generatorID>768268BA-4313-A874-6F2E-12984A9F764E</generatorID>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<engineerTo>
+<item key="3D7B92DA-1EF1-2980-5665-6EB108A1104D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A7F3407E-5DF0-7B6D-BAC3-D0E05197E65D" name="class type PK">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-27 14:04:52 UTC</createdTime>
+<generatorID>2BECF982-512C-F291-5DE2-A4FF372E7298</generatorID>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3D7B92DA-1EF1-2980-5665-6EB108A1104D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3FA839D2-5019-DBD6-4AAA-8E3116994B5B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

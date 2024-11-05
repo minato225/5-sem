@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4371825D-2433-7D4C-447C-BA277D45E6DB" name="Faculty">
+<createdBy>Рома</createdBy>
+<createdTime>2021-10-18 13:39:51 UTC</createdTime>
+<generatorID>DF91A922-5297-B285-CDD0-8A6CD5D9CE66</generatorID>
+<ownerDesignName>Доскоч_18_10</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="60240941-B8BE-CD17-5F64-160EB2DBFF63">
+<createdBy>Рома</createdBy>
+<createdTime>2021-10-18 13:39:51 UTC</createdTime>
+<generatorID>DB610872-334D-9D86-80FC-D176907A8AAD</generatorID>
+<ownerDesignName>Доскоч_18_10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="43257390-2FE4-B8F7-6470-23F5C2D0B3F8">
+<createdBy>Рома</createdBy>
+<createdTime>2021-10-18 13:39:51 UTC</createdTime>
+<generatorID>571448DD-9964-33ED-8FB5-A91049D880C4</generatorID>
+<ownerDesignName>Доскоч_18_10</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="University_Code" id="378B7AE5-872C-1A89-A6D9-6629B8DE388A">
+<createdBy>Рома</createdBy>
+<createdTime>2021-10-18 13:39:51 UTC</createdTime>
+<generatorID>77E39D45-711F-7F6C-6815-2FDE36613D8D</generatorID>
+<ownerDesignName>Доскоч_18_10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="19003CBF-9A77-0DFC-4771-15E220DEBB18" referredColumn="2BE8E437-5374-EEE4-A865-7A00F36903E6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4F49C3BC-4939-4DEE-0207-B06544D08D6C" name="Faculty_PK">
+<createdBy>Рома</createdBy>
+<createdTime>2021-10-18 13:39:51 UTC</createdTime>
+<generatorID>92A9B601-6275-8331-F130-374E24056E97</generatorID>
+<ownerDesignName>Доскоч_18_10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60240941-B8BE-CD17-5F64-160EB2DBFF63"/>
+<colUsage columnID="378B7AE5-872C-1A89-A6D9-6629B8DE388A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F40835CF-5632-778A-B17A-CC5EA18B4F12" name="Faculty_University_FK">
+<createdBy>Рома</createdBy>
+<createdTime>2021-10-18 13:39:51 UTC</createdTime>
+<generatorID>816F9422-364A-9415-FC72-A3DFEEFD2DB4</generatorID>
+<ownerDesignName>Доскоч_18_10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="378B7AE5-872C-1A89-A6D9-6629B8DE388A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

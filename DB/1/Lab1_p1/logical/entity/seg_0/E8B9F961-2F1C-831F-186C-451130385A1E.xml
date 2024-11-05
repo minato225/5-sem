@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E8B9F961-2F1C-831F-186C-451130385A1E" name="Manager">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 15:41:44 UTC</createdTime>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="badge number" id="17328A93-3237-C156-0A6F-0846CC206EEB">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 15:41:44 UTC</createdTime>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="77069E61-B2F2-A08B-DFC5-75ADBF6E6753">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 15:41:44 UTC</createdTime>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="salary" id="52F14B8F-1EB2-5B7C-4CBA-4BAE52A0AD30">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 15:41:44 UTC</createdTime>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="budget" id="24CF5AAB-A1E4-53A8-7BA2-8199AB7A6E1F">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 15:41:44 UTC</createdTime>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="badge number1" id="7D9ACD5F-6DD1-EB65-85B3-FC762BBE2A23">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 17:01:11 UTC</createdTime>
+<generatorID>386FECBE-8838-C963-2AC7-D8F94FAC8AA2</generatorID>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<referedAttribute>03B266FD-2CB0-27AC-BA9D-79A1075E322D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D4345691-2B1C-91E2-E1C2-AA88FED90F57" name="president PK">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 15:41:44 UTC</createdTime>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>17328A93-3237-C156-0A6F-0846CC206EEB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

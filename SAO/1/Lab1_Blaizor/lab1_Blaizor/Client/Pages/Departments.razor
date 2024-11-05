@@ -1,0 +1,35 @@
+﻿@page "/"
+@using lab1_Blaizor.Shared
+@inject NavigationManager NavigationManager
+
+<h3>Departments</h3>
+
+<SfSpinner @bind-Visible="SpinnerVisible" Type="@SpinnerType.Bootstrap4" Size="100" Label="Data loading" />
+
+@if (DepartmentsList is not null)
+{
+    @foreach (var item in DepartmentsList)
+    {
+        <button class="btn btn-primary" @onclick="@(() => DepartmentsRoot(item.DepartmentId))">
+            @item.DepartmentName
+        </button>
+    }
+}
+
+@code {
+    bool SpinnerVisible { get; set; }
+
+    List<Department> DepartmentsList { get; set; }
+
+    [Inject] public IDepartmentService DepartmentService { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        SpinnerVisible = true;
+        DepartmentsList = (await DepartmentService.GetAllDepartments()).ToList();
+        SpinnerVisible = false;
+    }
+
+    public void DepartmentsRoot(int id) =>
+        NavigationManager.NavigateTo($"/employees/{id}");
+}

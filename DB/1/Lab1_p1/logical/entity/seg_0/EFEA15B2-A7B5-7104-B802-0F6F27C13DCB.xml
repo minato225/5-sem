@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EFEA15B2-A7B5-7104-B802-0F6F27C13DCB" name="Employeev2">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 17:01:51 UTC</createdTime>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>empl</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Badge Number" id="404B5118-902B-417F-DF56-94A26B997F88">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 17:01:51 UTC</createdTime>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FirstName" id="3329D938-F4B6-27E0-E18D-4C43C1AB9989">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 17:01:51 UTC</createdTime>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Job" id="0C629EB5-5485-FD06-7883-5FFA119FBAA5">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 17:01:51 UTC</createdTime>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Salary" id="9ED82539-ED7B-5E58-F7D3-15943057673C">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 17:01:51 UTC</createdTime>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="car plan" id="F06B25CC-361F-67BA-5D40-4A134FE54886">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 17:01:51 UTC</createdTime>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bonus plan" id="181F9972-D691-EC6A-62A9-0AE3D58D3887">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 17:03:34 UTC</createdTime>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="budget" id="2657F733-E577-7A0A-1F0B-672F82EBE593">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 17:04:08 UTC</createdTime>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Badge Number1" id="8B56B15F-B533-E9E9-05A0-420F043F9733">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 17:04:53 UTC</createdTime>
+<generatorID>7056F585-82F2-4737-ACAC-C59AD1B276F5</generatorID>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>404B5118-902B-417F-DF56-94A26B997F88</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="190DB471-96B0-8E52-212F-124282115AF1" name="Employee PK">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 17:01:51 UTC</createdTime>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>404B5118-902B-417F-DF56-94A26B997F88</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

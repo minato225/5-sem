@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C21DF70-6C9C-E138-DA0E-8DA2B1FF6DDA" name="Time_Lime">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 21:39:02 UTC</createdTime>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<ordsAlias>sub_class</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ClassRoom_Clussroom_number" id="C6231296-A0DB-C34C-0C4A-1C7BE1420BD7">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 21:39:02 UTC</createdTime>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3059BC5D-462D-7910-AAAD-14848128F033" referredColumn="E1F68EB6-E3F9-1F64-A178-776FD327E572"/>
+</associations>
+</Column>
+<Column name="ClassRoom_college_building" id="DFC5630B-E5B0-C908-6BBA-D255E5239A9E">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 21:39:02 UTC</createdTime>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3059BC5D-462D-7910-AAAD-14848128F033" referredColumn="9C86E316-3F94-0B0A-9F92-B18C98B52921"/>
+</associations>
+</Column>
+<Column name="subject_id" id="81B2FC8A-6729-47F4-F94D-A5FBFCFD903F">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-27 14:11:33 UTC</createdTime>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2FD90E3E-F56A-DC31-BF66-D3812E1950CD" referredColumn="6DB2A82C-56F8-DEFD-8793-25939F503CA1"/>
+</associations>
+</Column>
+<Column name="start" id="0C48782F-8FA3-4A1B-820F-C730A6984B57">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-27 14:08:20 UTC</createdTime>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end" id="F3D729FF-E1A2-A07D-76A0-59B1407C733A">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-27 14:08:20 UTC</createdTime>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FF5BE412-DB88-D80B-BBFE-35A283DD4DCA" name="sub_class_PK">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 21:39:02 UTC</createdTime>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6231296-A0DB-C34C-0C4A-1C7BE1420BD7"/>
+<colUsage columnID="DFC5630B-E5B0-C908-6BBA-D255E5239A9E"/>
+<colUsage columnID="81B2FC8A-6729-47F4-F94D-A5FBFCFD903F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62F821A6-CC2B-E78C-1BF5-0574E59236B8" name="sub_class_subject_FK">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 21:39:02 UTC</createdTime>
+<generatorID>75B00C05-5281-5722-DF06-AA04447D41A5</generatorID>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81B2FC8A-6729-47F4-F94D-A5FBFCFD903F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EAF3F0CF-A2CF-3450-4CA8-D87DC8D88E07" name="sub_class_ClassRoom_FK">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-27 13:50:28 UTC</createdTime>
+<generatorID>75B00C05-5281-5722-DF06-AA04447D41A5</generatorID>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6231296-A0DB-C34C-0C4A-1C7BE1420BD7"/>
+<colUsage columnID="DFC5630B-E5B0-C908-6BBA-D255E5239A9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ABE8E193-E15F-E9B4-A861-929EFCE71745" name="subject">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 21:39:02 UTC</createdTime>
+<generatorID>6D26A269-92F1-3222-4B13-0611297A20DA</generatorID>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="6DB2A82C-56F8-DEFD-8793-25939F503CA1">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-27 14:11:33 UTC</createdTime>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="subject_name" id="04103D86-6B8C-1029-8C55-3CDFCCD3B724">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 21:39:02 UTC</createdTime>
+<generatorID>6E4D483F-D41A-C72C-941A-651DEAEE3310</generatorID>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lecturer_id" id="FECEDE20-7005-C843-07EF-89922278C509">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-27 14:11:19 UTC</createdTime>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD917AB0-10C4-109B-4B48-74DB4AC7DCD5" referredColumn="E29C3B3B-4A9C-56BE-F51A-8C9A0DBC8734"/>
+</associations>
+</Column>
+<Column name="lecturer_name" id="2D650805-688F-73FD-021E-CE90BA21B643">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-27 14:16:43 UTC</createdTime>
+<generatorID>FF1492D1-129B-0B39-D6CE-BAB9D7771176</generatorID>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="time" id="D781292A-1C03-B5EF-7270-1ED14061504E">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-27 14:16:43 UTC</createdTime>
+<generatorID>510223F7-3DCB-1003-3056-E329044A1B0D</generatorID>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="session_count_per_week" id="087DC9A2-031F-10D2-E054-6BBAA928F0AC">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-27 14:16:43 UTC</createdTime>
+<generatorID>93310ED9-D95C-3913-DF32-0C19A42ACFF3</generatorID>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="students_count" id="BBC2808F-CAC8-1D83-829E-F149ABF4E17D">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-27 14:16:43 UTC</createdTime>
+<generatorID>869AD3E2-CF36-1CE7-5FA9-D075AA4F98E2</generatorID>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4B7DC2FD-6BEB-88D7-FD68-6E9340CC76B7" name="subject_PK">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 21:39:02 UTC</createdTime>
+<generatorID>E8A6FD1B-75DA-C130-F8EB-73DC73A58CFC</generatorID>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DB2A82C-56F8-DEFD-8793-25939F503CA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="944CEEAA-A563-73CA-6449-B18F5D99C250" name="subject_lecturer_FK">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 21:39:02 UTC</createdTime>
+<generatorID>5602A3D5-FE03-6540-9710-3771EAC18CB0</generatorID>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FECEDE20-7005-C843-07EF-89922278C509"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FC2F2133-9B5F-E4D3-3CE9-49966F404E08" name="Graduate_Student">
+<createdBy>Рома</createdBy>
+<createdTime>2021-10-18 13:21:45 UTC</createdTime>
+<ownerDesignName>Доскоч_18_10</ownerDesignName>
+<engineerTo>
+<item key="B087DC4F-C856-FFCD-5FBF-3FCD71C9E3F0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Diploma_id" id="C16C5C1C-E180-1FF0-0B22-0C65F5E25AC8">
+<createdBy>Рома</createdBy>
+<createdTime>2021-10-18 13:21:52 UTC</createdTime>
+<ownerDesignName>Доскоч_18_10</ownerDesignName>
+<engineerTo>
+<item key="B087DC4F-C856-FFCD-5FBF-3FCD71C9E3F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FullName" id="08880830-8903-0B45-B232-4D6E31D31E83">
+<createdBy>Рома</createdBy>
+<createdTime>2021-10-18 13:21:52 UTC</createdTime>
+<ownerDesignName>Доскоч_18_10</ownerDesignName>
+<engineerTo>
+<item key="B087DC4F-C856-FFCD-5FBF-3FCD71C9E3F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Job_Position" id="F5AF2D87-FE32-DBF6-B545-0E39983E348F">
+<createdBy>Рома</createdBy>
+<createdTime>2021-10-18 13:21:52 UTC</createdTime>
+<ownerDesignName>Доскоч_18_10</ownerDesignName>
+<engineerTo>
+<item key="B087DC4F-C856-FFCD-5FBF-3FCD71C9E3F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Form_of_education" id="8E9B51A6-DB00-5B66-2C5D-6338B5B3E716">
+<createdBy>Рома</createdBy>
+<createdTime>2021-10-18 13:23:19 UTC</createdTime>
+<ownerDesignName>Доскоч_18_10</ownerDesignName>
+<engineerTo>
+<item key="B087DC4F-C856-FFCD-5FBF-3FCD71C9E3F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Spec_code" id="AC1ABEDA-ABCD-D15D-1326-64DF93D139E9">
+<createdBy>Рома</createdBy>
+<createdTime>2021-10-18 13:39:40 UTC</createdTime>
+<generatorID>ECAC054F-775B-C369-9935-BB8A962E6968</generatorID>
+<ownerDesignName>Доскоч_18_10</ownerDesignName>
+<engineerTo>
+<item key="B087DC4F-C856-FFCD-5FBF-3FCD71C9E3F0" value="true"/>
+</engineerTo>
+<referedAttribute>5CD3E235-21D9-EF6A-55F2-1CAE38A5F0A4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="9259308C-CB62-8B97-71F8-31578D351613">
+<createdBy>Рома</createdBy>
+<createdTime>2021-10-18 13:39:40 UTC</createdTime>
+<generatorID>ECAC054F-775B-C369-9935-BB8A962E6968</generatorID>
+<ownerDesignName>Доскоч_18_10</ownerDesignName>
+<engineerTo>
+<item key="B087DC4F-C856-FFCD-5FBF-3FCD71C9E3F0" value="true"/>
+</engineerTo>
+<referedAttribute>FD078849-7664-8C79-CD36-69BE79CCF691</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1FD7BF52-E302-72EA-61EC-AE4E573F7091" name="Graduate PK">
+<createdBy>Рома</createdBy>
+<createdTime>2021-10-18 13:21:55 UTC</createdTime>
+<ownerDesignName>Доскоч_18_10</ownerDesignName>
+<engineerTo>
+<item key="B087DC4F-C856-FFCD-5FBF-3FCD71C9E3F0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>754880AA-E90B-7455-D3E1-4252A366B326</attributeRef>
+<attributeRef>C16C5C1C-E180-1FF0-0B22-0C65F5E25AC8</attributeRef>
+<attributeRef>AC1ABEDA-ABCD-D15D-1326-64DF93D139E9</attributeRef>
+<attributeRef>9259308C-CB62-8B97-71F8-31578D351613</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

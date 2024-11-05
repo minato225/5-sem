@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7EF96836-41CB-E2EE-6288-26ED9B18F8FA" name="Speciality">
+<createdBy>Рома</createdBy>
+<createdTime>2021-10-18 13:35:50 UTC</createdTime>
+<ownerDesignName>Доскоч_18_10</ownerDesignName>
+<engineerTo>
+<item key="B087DC4F-C856-FFCD-5FBF-3FCD71C9E3F0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Spec_code" id="5CD3E235-21D9-EF6A-55F2-1CAE38A5F0A4">
+<createdBy>Рома</createdBy>
+<createdTime>2021-10-18 13:36:01 UTC</createdTime>
+<ownerDesignName>Доскоч_18_10</ownerDesignName>
+<engineerTo>
+<item key="B087DC4F-C856-FFCD-5FBF-3FCD71C9E3F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="DFF7ADE7-2A8D-E850-6739-3775F90A0460">
+<createdBy>Рома</createdBy>
+<createdTime>2021-10-18 13:36:02 UTC</createdTime>
+<ownerDesignName>Доскоч_18_10</ownerDesignName>
+<engineerTo>
+<item key="B087DC4F-C856-FFCD-5FBF-3FCD71C9E3F0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID" id="FD078849-7664-8C79-CD36-69BE79CCF691">
+<createdBy>Рома</createdBy>
+<createdTime>2021-10-18 13:37:14 UTC</createdTime>
+<generatorID>D78BD6FC-9EDD-2411-CE8D-3F6D62E55B07</generatorID>
+<ownerDesignName>Доскоч_18_10</ownerDesignName>
+<engineerTo>
+<item key="B087DC4F-C856-FFCD-5FBF-3FCD71C9E3F0" value="true"/>
+</engineerTo>
+<referedAttribute>DB610872-334D-9D86-80FC-D176907A8AAD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C77231E8-6B98-E8F6-CA87-6D766EFBC1DC" name="Speciality PK">
+<createdBy>Рома</createdBy>
+<createdTime>2021-10-18 13:36:11 UTC</createdTime>
+<ownerDesignName>Доскоч_18_10</ownerDesignName>
+<engineerTo>
+<item key="B087DC4F-C856-FFCD-5FBF-3FCD71C9E3F0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5CD3E235-21D9-EF6A-55F2-1CAE38A5F0A4</attributeRef>
+<attributeRef>FD078849-7664-8C79-CD36-69BE79CCF691</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="train" type="trainType"/>
+    <xs:simpleType name="coachType" final="restriction">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="w"/>
+            <xs:enumeration value="e"/>
+            <xs:enumeration value="r"/>
+            <xs:enumeration value="t"/>
+            <xs:enumeration value="y"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="statusType" final="restriction">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="vip"/>
+            <xs:enumeration value="business"/>
+            <xs:enumeration value="second"/>
+            <xs:enumeration value="softSleepers"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:complexType name="baggageType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute type="xs:integer" name="weight"/>
+                <xs:attribute type="xs:integer" name="count"/>
+                <xs:attribute type="xs:integer" name="cellPlace"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    <xs:complexType name="peopleType">
+        <xs:sequence>
+            <xs:element type="statusType" name="status"/>
+            <xs:element type="baggageType" name="baggage"/>
+        </xs:sequence>
+        <xs:attribute type="xs:string" name="name"/>
+        <xs:attribute type="xs:string" name="age"/>
+    </xs:complexType>
+    <xs:complexType name="peoplesType">
+        <xs:sequence>
+            <xs:element type="peopleType" name="people" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="wagonType">
+        <xs:sequence>
+            <xs:element type="coachType" name="type"/>
+            <xs:element type="peoplesType" name="peoples"/>
+        </xs:sequence>
+        <xs:attribute type="xs:integer" name="id"/>
+    </xs:complexType>
+    <xs:complexType name="wagonsType">
+        <xs:sequence>
+            <xs:element type="wagonType" name="wagon" maxOccurs="unbounded" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="trainType">
+        <xs:sequence>
+            <xs:element type="xs:string" name="name"/>
+            <xs:element type="xs:string" name="country"/>
+            <xs:element type="xs:string" name="maxSpeed"/>
+            <xs:element type="wagonsType" name="wagons"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

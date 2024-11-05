@@ -1,0 +1,79 @@
+﻿@page "/employees/{id:int}"
+@using lab1_Blaizor.Shared
+@using Syncfusion.Blazor.DropDowns
+
+
+<SfSpinner @bind-Visible="SpinnerVisible" Type="@SpinnerType.Bootstrap4" Size="100" Label="Data loading" />
+
+@if (Employees is not null)
+{
+    <div style="width: calc(100vw - 14rem);">
+        <SfGrid @ref="EmployeeGrid" DataSource="@Employees" AllowPaging="true" Toolbar="@toolBar">
+
+            <GridEditSettings AllowAdding="true" AllowEditing="true" AllowDeleting="true" />
+            <GridPageSettings PageSize="10" PageCount="5" PageSizes="@pagerDropdown" />
+            <GridEvents OnActionBegin="@Save" TValue="Employee"/>
+
+            <GridColumns>
+                <GridColumn Field=@nameof(Employee.EmployeeId) HeaderText="ID" Width="50px" IsPrimaryKey="true" AllowAdding="false" />
+                <GridColumn Field=@nameof(Employee.FirstName) HeaderText="First Name" />
+                <GridColumn Field=@nameof(Employee.LastName) HeaderText="Last Name" />
+                <GridColumn Field=@nameof(Employee.DateOfBrith) HeaderText="Date of Birth" Format="d" />
+
+                <GridColumn Field="Department.DepartmentName" HeaderText="Department">
+                    <EditTemplate>
+                        <SfDropDownList DataSource="@Departments" TItem="Department" TValue="int"
+                                        @bind-Value="@((context as Employee).DepartmentId)">
+                            <DropDownListFieldSettings Text="DepartmentName" Value="DepartmentId" />
+                        </SfDropDownList>
+                    </EditTemplate>
+                </GridColumn>
+
+                <GridColumn Field=@nameof(Employee.Gender)>
+                    <EditTemplate>
+                        <SfDropDownList ID="Gender" TItem="string" TValue="Gender"
+                                        @bind-Value="@((context as Employee).Gender)"
+                                        DataSource="@GenderEnumValues" />
+                    </EditTemplate>
+                </GridColumn>
+
+                <GridColumn Field=@nameof(Employee.Email) />
+
+            </GridColumns>
+        </SfGrid>
+    </div>
+}
+
+
+@code{
+
+    [Parameter] public int Id { get; set; }
+
+    string[] pagerDropdown = { "All", "5", "10", "15", "20" };
+    List<string> toolBar = new() { "Update", "Cancel" };
+    string[] GenderEnumValues = Enum.GetNames(typeof(Gender));
+    public bool SpinnerVisible { get; set; }
+
+    public List<Employee> Employees { get; set; }
+    public List<lab1_Blaizor.Shared.Department> Departments { get; set; }
+    public SfGrid<Employee> EmployeeGrid { get; set; }
+
+    [Inject] public IEmployeeService EmployeeService { get; set; }
+    [Inject] public IDepartmentService DepartmentService { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        SpinnerVisible = true;
+        Departments = (await DepartmentService.GetAllDepartments()).ToList();
+        Employees = (await EmployeeService.GetEmployees(Id)).ToList();
+        SpinnerVisible = false;
+    }
+
+    public async Task Save(ActionEventArgs<Employee> args)
+    {
+        if (args.RequestType.Equals(Syncfusion.Blazor.Grids.Action.Save))
+        {
+            await EmployeeService.UpdateEmployee(args.Data);
+        }
+    }
+}

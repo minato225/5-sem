@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BD50A9DA-F371-C1D9-9598-AD076F099D72" name=" Traing Event">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-20 12:26:33 UTC</createdTime>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="2D942E9A-D14F-1FAA-A3AC-534F0513EBBE">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-20 12:26:33 UTC</createdTime>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="57578916-E696-02BF-B50D-B47DBF1508FD">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-20 12:26:33 UTC</createdTime>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date" id="6547B656-CFEA-E2A6-A4DD-26E2B184CFF3">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-20 12:26:33 UTC</createdTime>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="JobID" id="3178B292-6AA5-F68F-CD27-7C99C3C0555E">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-20 12:26:33 UTC</createdTime>
+<generatorID>3340FD4D-8B9E-4743-7FE8-EED847EDCF84</generatorID>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<referedAttribute>4C0D5317-91D9-2009-BC1C-47BABB5C9AED</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="C48124AD-19FB-91D2-5EE3-ADBBEEB08117">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-20 12:26:33 UTC</createdTime>
+<generatorID>2B56EDB9-6DF1-B51B-3AF7-5BA624895FD1</generatorID>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<referedAttribute>3994CE79-97B9-BE12-21DE-3CF73896198B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A96E9451-0E93-5490-5B70-5297010AE1ED" name="Employee PK">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-20 12:26:33 UTC</createdTime>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2D942E9A-D14F-1FAA-A3AC-534F0513EBBE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

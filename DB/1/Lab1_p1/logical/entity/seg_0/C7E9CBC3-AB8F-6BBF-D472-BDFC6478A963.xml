@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C7E9CBC3-AB8F-6BBF-D472-BDFC6478A963" name="Employeev1">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-20 11:58:54 UTC</createdTime>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>empl</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="44C7D4D5-69A1-FD6B-13A7-A9FF9DA346B3">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-20 11:59:20 UTC</createdTime>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FirstName" id="FE0684DB-E4A8-5C10-5E66-745BDB7AE451">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-20 11:59:31 UTC</createdTime>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LastName" id="C9D6928F-229C-B5AA-BC71-335BED36DF2E">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-20 11:59:46 UTC</createdTime>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HireDate" id="65A2C67A-6AF0-9043-387B-DAE31A13A0C6">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-20 11:59:46 UTC</createdTime>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Salary" id="F1198D24-B6F5-C913-3319-BE3218F276F1">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-20 12:01:31 UTC</createdTime>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Commision" id="F31BEAFC-6B85-F428-29AC-0AD808BE735A">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-20 12:02:16 UTC</createdTime>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="JobID" id="D21504DB-C0C8-E883-E852-3E92AD26D4CF">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-20 12:11:34 UTC</createdTime>
+<generatorID>8A7A0089-7C11-0699-1D20-3400905A7DD9</generatorID>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<referedAttribute>4591D2C6-CB73-6BAD-99B0-4D11CBA82A06</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="543CD523-A274-C366-4C77-9CCB7D2258B1">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-20 12:11:56 UTC</createdTime>
+<generatorID>BC3F56CD-3046-73E7-9CBF-6FA75D3F6205</generatorID>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<referedAttribute>D3D8CEE0-3D64-F46D-1F4C-1F12CBA444A4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="62D8FD02-EB7B-162F-1F4C-7692E76D03D2" name="Employee PK">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-20 11:59:29 UTC</createdTime>
+<ownerDesignName>Lab1_p1</ownerDesignName>
+<engineerTo>
+<item key="E6114CF4-9A39-4322-B594-66480E9F023A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>44C7D4D5-69A1-FD6B-13A7-A9FF9DA346B3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

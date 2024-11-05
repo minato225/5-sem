@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Appenders>
+        <File name="clientAppender" fileName="client.log" append="false">
+            <PatternLayout pattern="%level - %m%n"/>
+        </File>
+
+        <File name="serverAppender" fileName="server.log" append="false">
+            <PatternLayout pattern="%level - %m%n"/>
+        </File>
+
+        <Console name="STDOUT" target="SYSTEM_OUT">
+            <PatternLayout pattern="%level - %m%n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Logger name="client.Main" level="info" additivity="false">
+            <AppenderRef ref="clientAppender"/>
+        </Logger>
+
+        <Logger name="server.Main" level="info" additivity="false">
+            <AppenderRef ref="serverAppender"/>
+        </Logger>
+
+        <Root level="debug">
+            <AppenderRef ref="STDOUT"/>
+        </Root>
+    </Loggers>
+</Configuration>

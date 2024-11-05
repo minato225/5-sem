@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="816F9422-364A-9415-FC72-A3DFEEFD2DB4">
+<createdBy>Рома</createdBy>
+<createdTime>2021-10-18 13:37:05 UTC</createdTime>
+<ownerDesignName>Доскоч_18_10</ownerDesignName>
+<engineerTo>
+<item key="B087DC4F-C856-FFCD-5FBF-3FCD71C9E3F0" value="true"/>
+</engineerTo>
+<sourcePk>D921DBCF-6290-51B6-57ED-DCA4B794AACA</sourcePk>
+<targetPk>92A9B601-6275-8331-F130-374E24056E97</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B01AA261-1298-C5C2-41C9-C9ABAEE9111E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DF91A922-5297-B285-CDD0-8A6CD5D9CE66</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

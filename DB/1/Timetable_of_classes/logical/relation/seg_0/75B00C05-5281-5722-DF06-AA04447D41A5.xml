@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="sub_class" directorySegmentName="seg_0" id="75B00C05-5281-5722-DF06-AA04447D41A5">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 21:22:21 UTC</createdTime>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<engineerTo>
+<item key="3D7B92DA-1EF1-2980-5665-6EB108A1104D" value="true"/>
+</engineerTo>
+<sourcePk>E8A6FD1B-75DA-C130-F8EB-73DC73A58CFC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>6D26A269-92F1-3222-4B13-0611297A20DA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3D093806-FFF3-B24F-A936-0F93A7FE658C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="start" id="6BC1E8FF-36BB-A88B-91DB-30B433FA19A4">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-27 14:17:03 UTC</createdTime>
+<generatorID>0C48782F-8FA3-4A1B-820F-C730A6984B57</generatorID>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<engineerTo>
+<item key="3D7B92DA-1EF1-2980-5665-6EB108A1104D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="end" id="7AEA6CF5-CFFE-2343-15B3-8B4741B49E95">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-27 14:17:03 UTC</createdTime>
+<generatorID>F3D729FF-E1A2-A07D-76A0-59B1407C733A</generatorID>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<engineerTo>
+<item key="3D7B92DA-1EF1-2980-5665-6EB108A1104D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

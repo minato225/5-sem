@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Доскоч_18_10" id="78D85EE0-6D81-EE39-15D8-2039B41D6205" version="3.5">
+<createdBy>Рома</createdBy>
+<createdTime>2021-10-18 13:15:29 UTC</createdTime>
+<ownerDesignName>Доскоч_18_10</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>78D85EE0-6D81-EE39-15D8-2039B41D6205</designId>
+</OSDM_Design>

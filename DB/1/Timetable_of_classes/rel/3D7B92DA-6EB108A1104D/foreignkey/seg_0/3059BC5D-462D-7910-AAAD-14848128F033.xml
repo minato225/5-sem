@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3059BC5D-462D-7910-AAAD-14848128F033" containerWithKeyObject="9C21DF70-6C9C-E138-DA0E-8DA2B1FF6DDA" localFKIndex="EAF3F0CF-A2CF-3450-4CA8-D87DC8D88E07" name="sub_class_ClassRoom_FK">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-27 13:50:28 UTC</createdTime>
+<generatorID>75B00C05-5281-5722-DF06-AA04447D41A5</generatorID>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<referredTableLongName>ClassRoom</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>20EAA7DD-250B-7734-087B-113E2CD99182</referredTableID>
+<keyObject>B4E0B27A-62F6-9E64-44FC-8AF1813140B4</keyObject>
+<referredKeyID>B4E0B27A-62F6-9E64-44FC-8AF1813140B4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Clussroom_number,college_building</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

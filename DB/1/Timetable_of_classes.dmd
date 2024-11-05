@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Timetable_of_classes" id="00DA4AEA-7796-0E36-0052-488436F13524" version="3.5">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 17:16:16 UTC</createdTime>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>00DA4AEA-7796-0E36-0052-488436F13524</designId>
+</OSDM_Design>

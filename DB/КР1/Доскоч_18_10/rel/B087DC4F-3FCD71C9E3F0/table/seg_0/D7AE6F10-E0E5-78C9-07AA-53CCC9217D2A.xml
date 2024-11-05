@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D7AE6F10-E0E5-78C9-07AA-53CCC9217D2A" name="Graduate_Student">
+<createdBy>Рома</createdBy>
+<createdTime>2021-10-18 13:39:51 UTC</createdTime>
+<generatorID>FC2F2133-9B5F-E4D3-3CE9-49966F404E08</generatorID>
+<ownerDesignName>Доскоч_18_10</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Diploma_id" id="9B3E5BA7-CEEF-C2B4-8E5D-947FD96E9AF6">
+<createdBy>Рома</createdBy>
+<createdTime>2021-10-18 13:39:51 UTC</createdTime>
+<generatorID>C16C5C1C-E180-1FF0-0B22-0C65F5E25AC8</generatorID>
+<ownerDesignName>Доскоч_18_10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FullName" id="C17DEC87-827F-28FF-3321-FCC40D909EB3">
+<createdBy>Рома</createdBy>
+<createdTime>2021-10-18 13:39:51 UTC</createdTime>
+<generatorID>08880830-8903-0B45-B232-4D6E31D31E83</generatorID>
+<ownerDesignName>Доскоч_18_10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Job_Position" id="7FD6E912-A291-CEB9-22DE-31CF1E512250">
+<createdBy>Рома</createdBy>
+<createdTime>2021-10-18 13:39:51 UTC</createdTime>
+<generatorID>F5AF2D87-FE32-DBF6-B545-0E39983E348F</generatorID>
+<ownerDesignName>Доскоч_18_10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Form_of_education" id="1461B4CA-B23D-B168-92A4-B4A36FAD2D8A">
+<createdBy>Рома</createdBy>
+<createdTime>2021-10-18 13:39:51 UTC</createdTime>
+<generatorID>8E9B51A6-DB00-5B66-2C5D-6338B5B3E716</generatorID>
+<ownerDesignName>Доскоч_18_10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Speciality_Spec_code" id="F1DC869F-AA97-4F91-2ADD-5DAC204461F7">
+<createdBy>Рома</createdBy>
+<createdTime>2021-10-18 13:39:51 UTC</createdTime>
+<generatorID>AC1ABEDA-ABCD-D15D-1326-64DF93D139E9</generatorID>
+<ownerDesignName>Доскоч_18_10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0BD20C73-127F-DC07-8AB7-A71C0D41AA6D" referredColumn="45ECAEE1-C27E-126E-EA68-AC349643802D"/>
+</associations>
+</Column>
+<Column name="Speciality_Faculty_ID" id="9B505BBD-46A4-6085-A540-778DC0F2C3F1">
+<createdBy>Рома</createdBy>
+<createdTime>2021-10-18 13:39:51 UTC</createdTime>
+<generatorID>9259308C-CB62-8B97-71F8-31578D351613</generatorID>
+<ownerDesignName>Доскоч_18_10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0BD20C73-127F-DC07-8AB7-A71C0D41AA6D" referredColumn="199CB095-9804-C772-650A-8CEC10578DFD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6DE26BD6-1F1D-EC2E-896B-1785F9DD2BBB" name="Graduate_Student_PK">
+<createdBy>Рома</createdBy>
+<createdTime>2021-10-18 13:39:51 UTC</createdTime>
+<generatorID>1FD7BF52-E302-72EA-61EC-AE4E573F7091</generatorID>
+<ownerDesignName>Доскоч_18_10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B3E5BA7-CEEF-C2B4-8E5D-947FD96E9AF6"/>
+<colUsage columnID="F1DC869F-AA97-4F91-2ADD-5DAC204461F7"/>
+<colUsage columnID="9B505BBD-46A4-6085-A540-778DC0F2C3F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2FAB210C-D013-0D47-13C9-B3C85E1B64E8" name="Graduate_Student_Speciality_FK">
+<createdBy>Рома</createdBy>
+<createdTime>2021-10-18 13:39:51 UTC</createdTime>
+<generatorID>ECAC054F-775B-C369-9935-BB8A962E6968</generatorID>
+<ownerDesignName>Доскоч_18_10</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1DC869F-AA97-4F91-2ADD-5DAC204461F7"/>
+<colUsage columnID="9B505BBD-46A4-6085-A540-778DC0F2C3F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ClassRoom_class_type_FK" directorySegmentName="seg_0" id="81290111-6200-C5EA-C6FC-D3422AC3358C">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-27 14:04:52 UTC</createdTime>
+<generatorID>100E8216-5A5F-1003-1F8D-671B36F5A08E</generatorID>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<engineerTo>
+<item key="3D7B92DA-1EF1-2980-5665-6EB108A1104D" value="true"/>
+</engineerTo>
+<sourcePk>A7F3407E-5DF0-7B6D-BAC3-D0E05197E65D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BB650F1F-7AAF-BAB9-293D-3A7001FB0E71</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3D093806-FFF3-B24F-A936-0F93A7FE658C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

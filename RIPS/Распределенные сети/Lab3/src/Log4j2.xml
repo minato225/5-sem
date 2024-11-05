@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Appenders>
+        <File name="utilityAppender" fileName="utility.log" append="false">
+            <PatternLayout pattern="%level - %m%n"/>
+        </File>
+
+        <File name="parserAppender" fileName="parser.log" append="false">
+            <PatternLayout pattern="%level - %m%n"/>
+        </File>
+
+        <File name="entityAppender" fileName="entity.log" append="false">
+            <PatternLayout pattern="%level - %m%n"/>
+        </File>
+
+        <Console name="STDOUT" target="SYSTEM_OUT">
+            <PatternLayout pattern="%level - %m%n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Logger name="text.entities" level="info">
+            <AppenderRef ref="entityAppender"/>
+        </Logger>
+
+        <Logger name="text.parser" level="info">
+            <AppenderRef ref="parserAppender"/>
+        </Logger>
+
+        <Logger name="utilities" level="info">
+            <AppenderRef ref="utilityAppender"/>
+        </Logger>
+
+        <Root level="debug">
+            <AppenderRef ref="STDOUT"/>
+        </Root>
+    </Loggers>
+</Configuration>

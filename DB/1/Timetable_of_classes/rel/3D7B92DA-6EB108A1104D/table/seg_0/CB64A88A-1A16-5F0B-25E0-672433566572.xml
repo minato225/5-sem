@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB64A88A-1A16-5F0B-25E0-672433566572" name="lecturer">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 21:38:05 UTC</createdTime>
+<generatorID>6457DC04-034A-DAFE-ADE2-3A4F1C5C9E29</generatorID>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="E29C3B3B-4A9C-56BE-F51A-8C9A0DBC8734">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-27 14:11:17 UTC</createdTime>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="2E55BDEE-68D8-5953-6E62-D2E3FD6B8418">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 21:38:05 UTC</createdTime>
+<generatorID>60D594AA-FCD4-E976-74F9-5D3F17DB0B66</generatorID>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D2330856-6E7B-2157-7D36-73E4867A2DCF" name="lecturer_PK">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 21:38:05 UTC</createdTime>
+<generatorID>2EC0BC23-7871-5E19-7BAD-2E45ADB9D008</generatorID>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E29C3B3B-4A9C-56BE-F51A-8C9A0DBC8734"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

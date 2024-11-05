@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6D26A269-92F1-3222-4B13-0611297A20DA" name="subject">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 21:18:10 UTC</createdTime>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<engineerTo>
+<item key="3D7B92DA-1EF1-2980-5665-6EB108A1104D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="subject name" id="6E4D483F-D41A-C72C-941A-651DEAEE3310">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 21:18:23 UTC</createdTime>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<engineerTo>
+<item key="3D7B92DA-1EF1-2980-5665-6EB108A1104D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="time" id="510223F7-3DCB-1003-3056-E329044A1B0D">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 21:26:26 UTC</createdTime>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<engineerTo>
+<item key="3D7B92DA-1EF1-2980-5665-6EB108A1104D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="session count per week" id="93310ED9-D95C-3913-DF32-0C19A42ACFF3">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 22:51:23 UTC</createdTime>
+<generatorID>C23F6EE8-CCA3-7CC1-B42D-6754809E2AFC</generatorID>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<engineerTo>
+<item key="3D7B92DA-1EF1-2980-5665-6EB108A1104D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="students count" id="869AD3E2-CF36-1CE7-5FA9-D075AA4F98E2">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 22:51:23 UTC</createdTime>
+<generatorID>5072E569-9A1F-1C44-D66C-8A590FC3D9CE</generatorID>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<engineerTo>
+<item key="3D7B92DA-1EF1-2980-5665-6EB108A1104D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="FCAA99AB-C41B-A839-9E1B-440285E7D65D">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-27 14:17:03 UTC</createdTime>
+<generatorID>6DB2A82C-56F8-DEFD-8793-25939F503CA1</generatorID>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<engineerTo>
+<item key="3D7B92DA-1EF1-2980-5665-6EB108A1104D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lecturer id" id="8752D10C-7DE7-284A-D2AB-E3EEDC49C7EE">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-27 14:17:03 UTC</createdTime>
+<generatorID>5602A3D5-FE03-6540-9710-3771EAC18CB0</generatorID>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<engineerTo>
+<item key="3D7B92DA-1EF1-2980-5665-6EB108A1104D" value="true"/>
+</engineerTo>
+<referedAttribute>B5EB4052-C12D-4367-F6F5-CE4882677848</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E8A6FD1B-75DA-C130-F8EB-73DC73A58CFC" name="subject PK">
+<createdBy>Рома</createdBy>
+<createdTime>2021-09-26 21:18:30 UTC</createdTime>
+<ownerDesignName>Timetable_of_classes</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3D7B92DA-1EF1-2980-5665-6EB108A1104D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FCAA99AB-C41B-A839-9E1B-440285E7D65D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

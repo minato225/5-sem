@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="5FE1EA8E-EC31-33D5-464B-0874076E52A5" mainViewID="AE5A7E1A-CFAF-F4D0-1C85-479DF59EAFEF">
+<createdBy>Рома</createdBy>
+<createdTime>2021-10-18 13:15:29 UTC</createdTime>
+<ownerDesignName>Доскоч_18_10</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<train xsi:noNamespaceSchemaLocation="trains.xsd"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <name>sapsan</name>
+    <country>USA</country>
+    <maxSpeed>410</maxSpeed>
+    <wagons>
+        <wagon id="3">
+            <type>w</type>
+            <peoples>
+                <people name="lisa" age="65">
+                    <status>second</status>
+                    <baggage weight="6" count="2" cellPlace="5323"/>
+                </people>
+                <people name="roman" age="98">
+                    <status>second</status>
+                    <baggage weight="89" count="2" cellPlace="8538"/>
+                </people>
+                <people name="lisa" age="24">
+                    <status>business</status>
+                    <baggage weight="89" count="5" cellPlace="3582"/>
+                </people>
+                <people name="andry" age="18">
+                    <status>vip</status>
+                    <baggage weight="14" count="5" cellPlace="1473"/>
+                </people>
+            </peoples>
+        </wagon>
+        <wagon id="4">
+            <type>w</type>
+            <peoples>
+                <people name="dima" age="24">
+                    <status>vip</status>
+                    <baggage weight="3" count="13" cellPlace="7794"/>
+                </people>
+                <people name="roman" age="3">
+                    <status>second</status>
+                    <baggage weight="45" count="7" cellPlace="3729"/>
+                </people>
+                <people name="andry" age="3">
+                    <status>second</status>
+                    <baggage weight="10" count="3" cellPlace="7643"/>
+                </people>
+            </peoples>
+        </wagon>
+    </wagons>
+</train>

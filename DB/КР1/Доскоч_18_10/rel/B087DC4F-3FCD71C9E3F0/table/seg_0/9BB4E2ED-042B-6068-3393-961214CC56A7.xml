@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9BB4E2ED-042B-6068-3393-961214CC56A7" name="University">
+<createdBy>Рома</createdBy>
+<createdTime>2021-10-18 13:39:51 UTC</createdTime>
+<generatorID>B01AA261-1298-C5C2-41C9-C9ABAEE9111E</generatorID>
+<ownerDesignName>Доскоч_18_10</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Code" id="2BE8E437-5374-EEE4-A865-7A00F36903E6">
+<createdBy>Рома</createdBy>
+<createdTime>2021-10-18 13:39:51 UTC</createdTime>
+<generatorID>48DD6D21-B63A-D73C-CAF2-02421F5290F4</generatorID>
+<ownerDesignName>Доскоч_18_10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="1D64A323-D9EA-103F-835A-44BA514AA8A2">
+<createdBy>Рома</createdBy>
+<createdTime>2021-10-18 13:39:51 UTC</createdTime>
+<generatorID>3CDE15B2-A218-B087-5A87-A89FBAE46035</generatorID>
+<ownerDesignName>Доскоч_18_10</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT035</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5FEECD9A-33C4-7171-5053-80BBAC529657" name="University_PK">
+<createdBy>Рома</createdBy>
+<createdTime>2021-10-18 13:39:51 UTC</createdTime>
+<generatorID>D921DBCF-6290-51B6-57ED-DCA4B794AACA</generatorID>
+<ownerDesignName>Доскоч_18_10</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BE8E437-5374-EEE4-A865-7A00F36903E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
